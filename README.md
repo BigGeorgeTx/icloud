@@ -7,7 +7,7 @@ Script for getting data from icloud. This script is using pyicloud. This is laye
 3) Install exec binding at openhab
 4) Install JSON Path transformation addon at openhab (under Other Add-ons in the UI)
 5) Copy icloud.py to your folder openhab/scripts
-6) Update username at icloud.py
+6) Update username and Item name in icloud.py
 7) Create Things from exebinding as command and setup command - python /etc/openhab/scripts/icloud.py -l "your phone key"
 8) You can create rule for run of this things or setup timer
 9) Create Item for gps location
