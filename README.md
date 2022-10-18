@@ -5,7 +5,7 @@ Script for getting data from icloud. This script is using pyicloud. This is laye
 1) Install library - [pyicloud](https://github.com/picklepete/pyicloud) pip install pyicloud - on the openhab server
 2) Setup pyicloud on your server based on [documentation](https://github.com/picklepete/pyicloud). Pay attention - you have to run command under openhab user - for example "sudo - u openhab icloud --username=jappleseed@apple.com"
 3) Install exec binding at openhab
-4) Install jsontransformation binding at openhab
+4) Install JSON Path transformation addon at openhab (under Other Add-ons in the UI)
 5) Copy icloud.py to your folder openhab/scripts
 6) Update username at icloud.py
 7) Create Things from exebinding as command and setup command - python /etc/openhab/scripts/icloud.py -l "your phone key"
